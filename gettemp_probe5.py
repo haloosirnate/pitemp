@@ -1,5 +1,5 @@
-# Open the probe
-tfile = open("/sys/bus/w1/devices/28-0115906849ff/w1_slave")
+# Open probe #5
+tfile = open("/sys/bus/w1/devices/28-0415902808ff/w1_slave")
 
 # Read all of the text in the file.
 text = tfile.read()
